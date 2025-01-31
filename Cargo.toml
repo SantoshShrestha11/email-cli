@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+imap = "2.3.1"
+native-tls = "0.2"
+mailparse = "0.14.0"
+rpassword = "7.2.0"  # For secure password input  # Added derive feature
